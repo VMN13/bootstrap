@@ -23,4 +23,20 @@
 
 video {
     border-radius: 20px;
+    width:100%;
+    width: 696px;
 }
+
+.card-img-bottom {
+    border-radius: 20px;
+}
+
+button {
+border-radius: 20px;
+}
+
+
+
+
+
+
