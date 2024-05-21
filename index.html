@@ -18,24 +18,28 @@ crossorigin="anonymous">
   <header>
    
     <article>
-      <div class="header">
-      <div>
-        <h1>
-           Material Design
-        </h1>
-       <div>
-           Material 3 is the latest version of Google’s open-source design system. Design and build beautiful, usable products with Material 3.
-       </div>
-         <button id="start">
-           Get started
-         </button>
-       </div>
-       <div>
-        <video width="600" height="600" src="C:\test\Google_Mio_SizzleGIF_3840x2160.mp4" controls>
-        </video>
-       </div>
+      <div class="d-flex justify-content-end">
+      <div class="row">
+        
+       <div class="container p-5">
+           <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active"  style= "height: 540px;">
+                <video class="video-fluid" autoplay loop muted>
+                <source src="Google_Mio_SizzleGIF_3840x2160.mp4"  type="video/mp4">
+                </video>
+
+             
+            </ol>
+          </div>
+        </div>
+      </div>
+     
        </article>
   </header>
+ 
+</div>
   <main>
     <div class="form-check form-switch mx-4">
       <input
@@ -53,30 +57,33 @@ crossorigin="anonymous">
          News & launches
       </h2> 
     <div class="main">
-      <div>
-        <span>Material Design at Google I/O
-        </span>
-        <span>See the full list of Material talks and tutorials
-          <br>launching at I/O 2024
-        </span>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <button>
+            <img class="card-img-bottom" src="Material-Design.png" alt="Card image cap">
+           <span>Material Design at Google I/O</span> 
+           <span>See the full list of Material talks and tutorials launching at I/O 2024</span>
+          </button>
+          </div>
+          <div class="col-sm">
+            <button>
+              <img class="card-img-bottom" src="Material-Design2.png" alt="Card image cap">
+             <span>Material Design at Google I/O</span> 
+             <span>See the full list of Material talks and tutorials launching at I/O 2024</span>
+            </button>
+          </div>
+          <div class="col-sm">
+            <button>
+              <img class="card-img-bottom" src="Material-Design3.png" alt="Card image cap">
+             <span>Material Design at Google I/O</span> 
+             <span>See the full list of Material talks and tutorials launching at I/O 2024</span>
+            </button>
+          </div>
         </div>
-        <div>
-          <span>How to get Google Fonts
-          </span>
-          <span>New API updetes and website upgrades make
-            <br>font integretion easier than ever
-          </span>
-        </div>
-        <div>
-          <span>Figma design kit
-          </span>
-          <span>Start designing and prototyping with the
-            <br> complete M3 library of ready-made
-            <br> components
-          </span>
-        </div>
-        </div>
-      </article>
+      </div>
+
+      </div>
       
       <article>
         <nav class="navbar bg-body-tertiary fixed-top">
@@ -85,9 +92,8 @@ crossorigin="anonymous">
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas offcanvas-end" tabindex="1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
               <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body">
@@ -128,116 +134,81 @@ crossorigin="anonymous">
             </div>
           </div>
         </nav>
+        
     </article>
     <article>
       <div class="main2">
         <h2>
           Design system updates
         </h2>
-       <div>
-         <button>
-           <span>
-            Content design
-           </span>
-           <span>Guidance and best practices for UX wtitting and
-             <br>information design
-           </span>
-          </button>
-          </div>
-          <div>
-            <button>
-              <span>new component: Carousel
-              </span>
-              <span>An expressive new way to display a horizontally
-               <br>scrolling collection of content
-              </span>
-             </button>
-           </div>
-           <div>
-            <button>
-              <span>M3 for Jetpack Compose
-              </span>
-              <span>With the latest stable release, use Jetpack
-                <br>
-                  Compose to build a complete M3 Android app
-              </span>
+        <div class="container">
+          <div class="row align-items-start">
+            <div class="col">
+              <img class="card-img-bottom" src="..." alt="Card image cap">
+              Одна из трёх колонок
+            </div>
+          
+            <div class="col">
+              <button>
+              Одна из трёх колонок
             </button>
-              </div>
-              <div>
-            <button>
-              <span>Material Theme Builder
-              </span>
-              <span>Easily migrate or get started with the M3 color
-                <br> system and dynamic color
-              </span>
-</button>
+            </div>
+            <div class="col">
+              Одна из трёх колонок
+            </div>
           </div>
-          <div>
-            <button>
-            <span>How the color system works</span>
-            <span>From color roles and accessible tone pairs to <br>dynamic color, learn how color works in Material
-        </button>
+          <div class="row align-items-center">
+            <div class="col">
+              Одна из трёх колонок
+            </div>
+            <div class="col">
+              Одна из трёх колонок
+            </div>
+            <div class="col">
+              Одна из трёх колонок
+            </div>
           </div>
-          <div>
-            <button>
-            <span>Using Material icons</span>
-            <span>Learn how to use and customise the latest <br> systems icons for your UI</span>
-        </button>
+          <div class="row align-items-end">
+            <div class="col">
+              Одна из трёх колонок
+            </div>
+            <div class="col">
+              Одна из трёх колонок
+            </div>
+            <div class="col">
+              Одна из трёх колонок
+            </div>
           </div>
         </div>
-      </article>
 
+
+      </article>
       <article>
         <div class="main3">
             <h2>
                 Resources
             </h2>
+            <div class="container">
+              <div class="row">
+                <div class="col">Колонка</div>
+                <div class="col">Колонка</div>
+                <div class="w-100"></div>
+                <div class="col">Колонка</div>
+                <div class="col">Колонка</div>
+              </div>
+            </div>
         </div>
-        <div>
-            <button>
-            <span>Material blog</span>
-            <span>News, tutorials, and inspiration the Material team</span>
-        </button>
-          </div>
-          <div>
-            <button>
-            <span>Get started</span>
-            <span>Guides, videos, and tools to start building with Material</span>
-        </button>
-          </div>
-          <div>
-            <button>
-            <span>Figma design kit</span>
-            <span>Customizable styles and components to help you design with Material 3</span>
-        </button>
-          </div>
-          <div>
-            <button>
-            <span>Get started</span>
-            <span>Guides, videos, and tools to start building with Material</span>
-        </button>
-        <button>
-            <span>Develop</span>
-            <span>Code and developer documentation for building with Material</span>
-        </button>
-          </div>
-      </article>
-    </main>
-    <rect></rect> 
+        
     <footer>
         <div class="footer">
             <p>
-                Material Design is an adaptable system of guidelines, components, and tools that support the best practices of user interface design.
-                 Backed by open-source code, Material Design streamlines collaboration between designers and developers, and helps teams quickly build beautiful products.
+                Material Design is an adaptable system of guidelines, components,<br>
+                 and tools that support the best practices of user interface design. <br>
+                 Backed by open-source code, Material Design streamlines<br> collaboration between designers and developers, and helps teams <br>quickly build beautiful products.
             </p>
-        </div>
-        <div class="li">
-        <div>
-            <li>
-        <a>GitHub</a>
-        <a>Twitter</a>
-        <a>YouTube</a>
-    </li>
+        
+       
+       
         </div>
         <div>
             <li>
