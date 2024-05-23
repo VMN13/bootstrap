@@ -37,13 +37,13 @@ video {
 
 button {
 border-radius: 20px;
-color: black;
+
 }
 
 
 
 .btn.btn-primary {
-    color: black;
+  
     background-color: rgb(78, 4, 95); ;
     width: 127px;
     height: 30px;
@@ -101,7 +101,7 @@ div.p-2.w-100.bd-hightlight {
 
 
 #button {
-    color: black;
+   
     background-color: blueviolet;
     height: 80px;
     width: 238px;
@@ -129,5 +129,28 @@ body.dark-theme {
   }
 
 
+.fixed-top  { position: fixed;
+  top: 0;
+  right: 94%;
+  left: 0;
+ height: 100%;
+}
+
+
+
+@media (min-width: 576px) {
+    .col-sm-5 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+        padding: 10px;
+    }
+}
+
+ div.p-2.w-100.bd-highlight {
+    max-width: 100%;
+    background-color: rgb(34, 32, 32);
+    border-radius: 30px;
+    height: 400px;
+ }
 
 
