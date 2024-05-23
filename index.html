@@ -18,22 +18,30 @@ crossorigin="anonymous">
   <header>
    
     <article>
-      <div class="d-flex justify-content-end">
-      <div class="row">
-        
-       <div class="container p-5">
-           <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
-            <ol>
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active"  style= "height: 540px;">
-                <video class="video-fluid" autoplay loop muted>
-                <source src="Google_Mio_SizzleGIF_3840x2160.mp4"  type="video/mp4">
-                </video>
+      <div class="d-flex bd-highlight">
+        <div class="p-2 w-100 bd-highlight">
+          <p>
+            Material Design
+          </p>
+          <p>
+            Material 3 is the latest version of Google's open-source <br> design system. Design and build beautiful, usable products with Material 3.
 
-             
-            </ol>
-          </div>
+          </p>
+          <button id="button">Get started</button>
         </div>
+        <div class="p-2 flex-shrink-1 bd-highlight">  
+          <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+          <ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active"  style= "height: 540px;">
+              <video class="video-fluid" autoplay loop muted>
+              <source src="Google_Mio_SizzleGIF_3840x2160.mp4"  type="video/mp4">
+              </video>
+
+           
+          </ol>
+    
+     
       </div>
      
        </article>
@@ -41,42 +49,43 @@ crossorigin="anonymous">
  
 </div>
   <main>
-    <div class="form-check form-switch mx-4">
-      <input
-        class="form-check-input p-2"
-        type="checkbox"
-        role="switch"
-        id="flexSwitchCheckChecked"
-        checked
-        onclick="myFunction()"
-      />
-    </div>
-    
+  
     <article>
-      <h2>
-         News & launches
-      </h2> 
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h2>
+              News & launches
+           </h2>
+          </div>
+         
+          </div>
+        </div>
+      </div>
+     
+     
     <div class="main">
       <div class="container">
         <div class="row">
           <div class="col-sm">
-            <button>
+            <button type="button" class="btn btn-outline-secondary">
             <img class="card-img-bottom" src="Material-Design.png" alt="Card image cap">
-           <span>Material Design at Google I/O</span> 
+           <h3>Material Design at Google I/O</h3>
            <span>See the full list of Material talks and tutorials launching at I/O 2024</span>
           </button>
           </div>
           <div class="col-sm">
-            <button>
+            <button type="button" class="btn btn-outline-secondary">
               <img class="card-img-bottom" src="Material-Design2.png" alt="Card image cap">
-             <span>Material Design at Google I/O</span> 
+             <h3>Material Design at Google I/O</h3>
              <span>See the full list of Material talks and tutorials launching at I/O 2024</span>
             </button>
           </div>
           <div class="col-sm">
-            <button>
+            
+            <button type="button" class="btn btn-outline-secondary">
               <img class="card-img-bottom" src="Material-Design3.png" alt="Card image cap">
-             <span>Material Design at Google I/O</span> 
+             <h3>Material Design at Google I/O</h3> 
              <span>See the full list of Material talks and tutorials launching at I/O 2024</span>
             </button>
           </div>
@@ -89,14 +98,7 @@ crossorigin="anonymous">
         <nav class="navbar bg-body-tertiary fixed-top">
           <div class="container-fluid">
             
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-              <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
+         
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -128,7 +130,16 @@ crossorigin="anonymous">
                 </ul>
                 <form class="d-flex mt-3" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  
+                  <div class="form-check form-switch mx-4">
+                    <input
+                      class="form-check-input p-2"
+                      type="checkbox"
+                      role="switch"
+                      id="flexSwitchCheckChecked"
+                      checked
+                      onclick="myFunction()"
+                    />
+                  </div>
                 </form>
               </div>
             </div>
@@ -138,47 +149,75 @@ crossorigin="anonymous">
     </article>
     <article>
       <div class="main2">
-        <h2>
-          Design system updates
-        </h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <h2>
+                Design system updates
+             </h2>
+            </div>
+           
+            </div>
+          </div>
+        </div>
+       
+       
         <div class="container">
           <div class="row align-items-start">
             <div class="col">
-              <img class="card-img-bottom" src="..." alt="Card image cap">
-              Одна из трёх колонок
+              <button type="button" class="btn btn-outline-secondary">
+              <img class="card-img-bottom" src="Material-Design 4.png" alt="Card image cap">
+           <h3>Content design</h3> 
+           <span>Guidance and best practices for UX writing<br> and information design</span>
+          </button>
             </div>
           
             <div class="col">
-              <button>
-              Одна из трёх колонок
+              <button type="button" class="btn btn-outline-secondary">
+                <img class="card-img-bottom" src="Material-Design 5.png" alt="Card image cap">
+                <h3>New component: Carousel</h3> 
+                <span>An expressive new way to display a horizontally scrolling <br>collection of content</span>
+             
             </button>
             </div>
             <div class="col">
-              Одна из трёх колонок
+              <button type="button" class="btn btn-outline-secondary">
+              <img class="card-img-bottom" src="Material-Design 6.png" alt="Card image cap">
+                <h3>New component: Carousel</h3> 
+                <span>An expressive new way to display a horizontally<br> scrolling collection of content</span>
+             
+            </button>
             </div>
           </div>
           <div class="row align-items-center">
             <div class="col">
-              Одна из трёх колонок
+              <button type="button" class="btn btn-outline-secondary">
+              <img class="card-img-bottom" src="Material-Design 7.png" alt="Card image cap">
+              <h3>New component: Carousel</h3> 
+              <span>An expressive new way to display a horizontally<br> scrolling collection of content</span>
+           
+          </button>
             </div>
             <div class="col">
-              Одна из трёх колонок
+              
+              <button type="button" class="btn btn-outline-secondary">
+                <img class="card-img-bottom" src="Material-Design 8.png" alt="Card image cap">
+                <h3>New component: Carousel</h3> 
+                <span>An expressive new way to display a horizontally<br> scrolling collection of content</span>
+             
+            </button>
             </div>
             <div class="col">
-              Одна из трёх колонок
+              
+              <button type="button" class="btn btn-outline-secondary">
+                <img class="card-img-bottom" src="Material-Design 9.png" alt="Card image cap">
+                <h3>New component: Carousel</h3> 
+                <span>An expressive new way to display a horizontally<br> scrolling collection of content</span>
+             
+            </button>
             </div>
           </div>
-          <div class="row align-items-end">
-            <div class="col">
-              Одна из трёх колонок
-            </div>
-            <div class="col">
-              Одна из трёх колонок
-            </div>
-            <div class="col">
-              Одна из трёх колонок
-            </div>
-          </div>
+          
         </div>
 
 
@@ -190,12 +229,24 @@ crossorigin="anonymous">
             </h2>
             <div class="container">
               <div class="row">
-                <div class="col">Колонка</div>
-                <div class="col">Колонка</div>
+                <button>
+                <div class="col">Material blog</div>
+                <span>News, tutorials, and  inspiration from the Material team</span>
+              </button>
+              <button>
+                <div class="col">Get started</div>
+                <span>Guides, videos, and tools to start building with Material</span>
                 <div class="w-100"></div>
-                <div class="col">Колонка</div>
-                <div class="col">Колонка</div>
+              </button>
+              <button>
+                <div class="col">Figma design kit</div>
+                <span>Customizable styles and components to help you design with Material 3</span>
+              </button>
+              <button>
+                <div class="col">Develop</div>
+                <span>Code and developer documentation for building with Material</span>
               </div>
+            </button>
             </div>
         </div>
         
@@ -212,6 +263,7 @@ crossorigin="anonymous">
         </div>
         <div>
             <li>
+              Social
              <a>
                  Android
                 </a>
