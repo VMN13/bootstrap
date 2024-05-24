@@ -103,6 +103,7 @@ h3 {
 
 div.p-2.w-100.bd-hightlight {
     display: flex;
+    overflow: hidden;
 } 
 
 
@@ -135,12 +136,13 @@ body.dark-theme {
   }
 
 
-.fixed-top  { position: fixed;
+.fixed-top  { position: static;
   top: 0;
   right: 94%;
   left: 0;
  height: 100%;
  z-index: 0;
+
 }
 
 
@@ -155,7 +157,7 @@ body.dark-theme {
 
  div.p-2.w-100.bd-highlight {
     max-width: 100%;
-    background-color: rgb(34, 32, 32);
+    background-color: rgb(55 55 55);;
     border-radius: 30px;
     height: 400px;
  }
