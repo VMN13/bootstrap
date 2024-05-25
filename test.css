@@ -8,6 +8,11 @@
  }
 
 
+ div.container {
+    padding: 8px 16px;
+  
+ }
+
 #start {
     position: flex;
     border-radius: 40px;
@@ -37,6 +42,12 @@ video {
 button {
 border-radius: 20px;
 
+}
+
+div.p-3.border {
+    border-radius: 20px;
+    border: none;
+  
 }
 
 
