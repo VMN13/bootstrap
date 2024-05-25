@@ -6,14 +6,7 @@
  
  zoom: 50%;
  }
-.header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: center;
-    align-items: center;
-}
+
 
 #start {
     position: flex;
@@ -136,7 +129,7 @@ body.dark-theme {
   }
 
 
-.fixed-top  { position: static;
+.fixed-top  { position: fixed;
   top: 0;
   right: 94%;
   left: 0;
