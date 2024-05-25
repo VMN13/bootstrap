@@ -3,10 +3,14 @@
 
  body {
  overflow-x: none;
+ zoom: 70%;
  
- zoom: 50%;
  }
 
+
+ div.col-xxl-10 {
+    display: flex;
+ }
 
  div.container {
     padding: 8px 16px;
@@ -44,11 +48,13 @@ border-radius: 20px;
 
 }
 
-div.p-3.border {
+div.p-3 {
     border-radius: 20px;
     border: none;
-  
+   
 }
+
+
 
 
 
@@ -109,6 +115,10 @@ div.p-2.w-100.bd-hightlight {
     display: flex;
     overflow: hidden;
 } 
+
+div.row.row-cols-1.row-cols-sm-2.row-cols-md-5 {
+    gap: -20px;
+}
 
 
 #button {
