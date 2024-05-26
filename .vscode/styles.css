@@ -50,6 +50,7 @@ div.p-3 {
 
 a {
   text-decoration: none;
+  color: #9f86ff;
 }
 
 .btn.btn-primary {
@@ -91,7 +92,7 @@ span {
 }
 
 .material-symbols-outlined {
-  font-size: 70px;
+  font-size: 30px;
 }
 
 div.col-sm {
@@ -111,20 +112,32 @@ div.p-2.w-100.bd-hightlight {
   overflow: hidden;
 }
 
+#search {
+  background-color: #553f5d;
+  height: 70px;
+  width: 80px;
+}
+
+.form-check-input:checked {
+  background-color: #553f5d;
+  border-color: #553f5d;
+}
+
 div.row.row-cols-1.row-cols-sm-2.row-cols-md-5 {
   gap: -20px;
 }
 
 #button {
-  background-color: blueviolet;
+  background-color: #9f86ff;
   height: 80px;
   width: 238px;
-  border-color: blueviolet;
+  border-color: #cfc5f5;
   border-radius: 40px;
+  font-size: 30px;
 }
 
 #button:hover {
-  background: rgb(78, 4, 95);
+  background: #cfc5f5;
   -webkit-transition: 2s;
   transition: 2s;
 }
