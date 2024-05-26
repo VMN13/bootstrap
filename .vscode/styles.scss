@@ -1,10 +1,7 @@
-
 body {
     overflow-x: none;
-    zoom: 90%;
-    
+    zoom: 90%;    
     }
-   
    
     div.col-xxl-10 {
        display: flex;
@@ -12,7 +9,7 @@ body {
    
     div.container {
        padding: 8px 16px;
-      
+      margin-top: 40px;
     }
    
    #start {
@@ -42,40 +39,31 @@ body {
    
    button {
    border-radius: 20px;
-   
    }
    
    div.p-3 {
        border-radius: 20px;
        border: none;
-      
    }
-   
    
    a {
     text-decoration: none;
    }
    
-   
    .btn.btn-primary {
-     
        background-color: rgb(78, 4, 95); ;
        width: 127px;
        height: 30px;
        border-radius: 20px;
        padding: 0.48px;
        cursor: pointer;
-       outline: rgb(78, 4, 95)
-       
+       outline: rgb(78, 4, 95) 
    }
-   
-   
    
    button:hover {
        background: rgb(161, 155, 163);
    }
    
-
   h1 {
     font-size: 70px;
   }
@@ -85,7 +73,7 @@ body {
    }
    
    span {
-       font-size: 20px;
+       font-size: 30px;
    }
    
    .row.align-items-start {
@@ -96,16 +84,16 @@ body {
        max-width: 100%;
    }
    
-
    .btn.btn-outline-secondary {
-      max-width: 100%;
-      
+      max-width: 100%;  
    }
 
+   .material-symbols-outlined {
+    font-size: 70px;
+   }
 
    div.col-sm {
-    display: flex;
-    
+    display: flex; 
    }
    
    .card-img-bottom {
@@ -121,7 +109,6 @@ body {
        gap: -20px;
    }
    
-   
    #button {
        background-color: blueviolet;
        height: 80px;
@@ -129,6 +116,7 @@ body {
        border-color:blueviolet;
        border-radius: 40px;
    }
+
    #button:hover {
        background: rgb(78, 4, 95);
        transition: 2s;
@@ -141,29 +129,26 @@ body {
    div.main3 {
    display: flex;
    flex-direction: column;
-  
    }
-   
    
    body.dark-theme {
        color: #eee;
        background: #121212;
      }
+
      body.dark-theme a {
        color: #809fff;
      }
    
-   
-   .fixed-top  { position: fixed;
-     top: 0;
-     right: 94%;
-     left: 0;
-    height: 100%;
-    z-index: 0;
-   
+   .fixed-top  { position: static;
+    height: 200px;
+    max-width: 100%;
+    width: min-content;
    }
    
-   
+   ul.navbar-nav.justify-content-end.flex-grow-1.pe-3 {
+    display: flex;
+   }
    
    @media (min-width: 576px) {
        .col-sm-5 {

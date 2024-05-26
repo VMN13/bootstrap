@@ -11,6 +11,7 @@ div.col-xxl-10 {
 
 div.container {
   padding: 8px 16px;
+  margin-top: 40px;
 }
 
 #start {
@@ -74,7 +75,7 @@ h2 {
 }
 
 span {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .row.align-items-start {
@@ -87,6 +88,10 @@ span {
 
 .btn.btn-outline-secondary {
   max-width: 100%;
+}
+
+.material-symbols-outlined {
+  font-size: 70px;
 }
 
 div.col-sm {
@@ -148,12 +153,18 @@ body.dark-theme a {
 }
 
 .fixed-top {
-  position: fixed;
-  top: 0;
-  right: 94%;
-  left: 0;
-  height: 100%;
-  z-index: 0;
+  position: static;
+  height: 200px;
+  max-width: 100%;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+ul.navbar-nav.justify-content-end.flex-grow-1.pe-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media (min-width: 576px) {
