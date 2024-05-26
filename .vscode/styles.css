@@ -1,6 +1,6 @@
 body {
   overflow-x: none;
-  zoom: 70%;
+  zoom: 90%;
 }
 
 div.col-xxl-10 {
@@ -27,8 +27,7 @@ div.container {
 
 video {
   border-radius: 20px;
-  width: 100%;
-  width: 696px;
+  max-width: 100%;
 }
 
 .card-img-bottom {
@@ -48,6 +47,10 @@ div.p-3 {
   border: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .btn.btn-primary {
   background-color: rgb(78, 4, 95);
   width: 127px;
@@ -60,6 +63,10 @@ div.p-3 {
 
 button:hover {
   background: rgb(161, 155, 163);
+}
+
+h1 {
+  font-size: 70px;
 }
 
 h2 {
@@ -80,6 +87,12 @@ span {
 
 .btn.btn-outline-secondary {
   max-width: 100%;
+}
+
+div.col-sm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .card-img-bottom {
@@ -113,7 +126,16 @@ div.row.row-cols-1.row-cols-sm-2.row-cols-md-5 {
 
 div.d-flex.p-2.bd-highlight {
   right: 20px;
-  margin: 20px;
+}
+
+div.main3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 body.dark-theme {
